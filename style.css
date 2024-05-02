@@ -3,16 +3,22 @@ body {
     color: #FFFFFF;
 }
 
+a {
+    color: #FFFFFF;
+    
+}
+
 .navbar {
     background-color: #E60000;
     color: #FFFFFF;
     text-align: center;
 }
 
-a {
-    color: #FFFFFF;
-}
-
 .linebreak {
     background-color: #695C5C;
+    color: #695C5C;
+}
+
+.tuniv {
+    background-color: #182B2F;
 }
