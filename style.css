@@ -12,6 +12,10 @@ a {
     text-align: center;
 }
 
+.about-me .gasc {
+    color: #000000;
+}
+
 .linebreak, #div.linebreak {
     background-color: #695C5C;
     color: #695C5C;
