@@ -1,5 +1,9 @@
-#navbar {
+.navbar {
     background-color: #E60000;
-    color: #ffffff;
+    color: #FFFFFF;
     text-align: center;
+}
+
+.linebreak {
+    background-color: #695C5C;
 }
