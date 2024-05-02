@@ -14,9 +14,13 @@ a {
     text-align: center;
 }
 
-.linebreak {
+.linebreak, #div.linebreak {
     background-color: #695C5C;
     color: #695C5C;
+}
+
+.magicdle {
+    background-color: #29339b;
 }
 
 .tuniv {
