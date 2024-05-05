@@ -26,3 +26,7 @@ a {
     background-color: #182B2F;
     color: #FFFFFF;
 }
+
+#navbar_en, #about-me-en, #skills-training-en, #hobbies-en, #contact-en, #navbar-en {
+    display: none;
+}
