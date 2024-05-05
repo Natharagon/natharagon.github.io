@@ -6,7 +6,7 @@ a {
     color: #FFFFFF;
 }
 
-.navbar footer {
+.navbar, footer {
     background-color: #E60000;
     color: #FFFFFF;
     text-align: center;
