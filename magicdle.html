@@ -6,15 +6,26 @@
     </head>
 
     <body>
-        <header class="navbar">
+        <header class="navbar fr">
             <a href="/index.html">A propos de moi</a>
             <a href="/magicdle.html">Magicdle</a>
             <a href="/tuniv.html">Tuniv</a>
-            <!-- <a href="/gasc.html">Gasc</a> -->
+            <button onclick="changeLanguage()">
+                <img src="/img/french_flag.png" alt="French flag" class="flag">
+            </button>
+        </header>
+
+        <header class="navbar en">
+            <a href="/index.html">About me</a>
+            <a href="/magicdle.html">Magicdle</a>
+            <a href="/tuniv.html">Tuniv</a>
+            <button onclick="changeLanguage()">
+                <img src="/img/uk_flag.png" alt="United Kingdom flag" class="flag">
+            </button>
         </header>
     
         <div class="magicdle">
-            <h2>Magicdle</h2>
+            <h1>Magicdle</h1>
             <div class="magicdle_techs">
                 <ul>
                     <li>Symfony</li>
@@ -23,18 +34,33 @@
                     <li>MariaDB</li>
                 </ul>
             </div>
-            <div>
+            <div class="fr">
                 <h3>Le projet</h3>
                 Ce projet a été réalisé durant ma troisième année de BUT informatique. Le sujet étant libre, mon collègue et moi avons décidé de développer un site web reprenant le principe du Wordle du New York Times, jeu où l'on doit deviner un mot à l'aide d'indices basés sur les mots déjà essayés, mais en remplaçant les mots par des cartes du jeu de cartes à collectionner Magic the Gathering. En plus de la page dédiée au jeu, le projet disposait d'un moteur de recherche permettant de rechercher des cartes, une fonctionnalité complétant bien le principe du jeu, ainsi que d'autres pages plus cosmétiques telles qu'une page d'accueil affichant une sélection de cartes aléatoires et une page de statistiques donnant diverses statistiques liées au site et aux cartes.
             </div>
-            <div>
+            <div class="fr">
                 <h3>Ma contribution</h3>
                 Mon collègue et moi avons effectué la conception de la base de données du projet ensemble. J'ai ensuite développé une partie de l'algorithme de recherche de carte utilisé à travers tout le site, mais la plus grande partie de ma contribution réside dans mon développement de toute la partie jeu du site : c'est moi qui me suis occupé de rendre son backend fonctionnel, de la génération d'une nouvelle carte à deviner chaque jour à l'affichage des essais du joueur et des indices qui en découlent.
             </div>
+
+            <div class="en">
+                <h3>The project</h3>
+                This project was developed during my third year of BUT. Since we could pick our own subject, me and my colleague decided to develop a website based on the New York Times Wordle game, where you try to guess a word through hints based on your previous attempts, but replacing the words with Magic: The Gathering cards. On top of the game page, the project also came with a search engine to help with searching cards, a useful tool to have considering the nature of the game, alongside more cosmetic pages such as a homepage displaying a selection of random cards and a stats page displaying various stats related to the cards and site. 
+            </div>
+            <div class="en">
+                <h3>My contribution</h3>
+                My colleague and I worked on designing the project's database together. I then developed part of the card searching algorithm used throughout the entire site, but my main contribution was my development of the entire game part of the project: I worked on 100% of its backend functionality, from the generation of a new card to guess every day to the site's displaying of previous attempts and the hints that came with them.
+            </div>
         </div>
 
-        <footer class="navbar">
+        <footer class="navbar fr">
             Ce site web a été développé par Nathan Ozimek et est hébergé sur GitHub Pages.
         </footer>
+
+        <footer class="navbar en">
+            This website was developed by Nathan Ozimek and is hosted on GitHub Pages.
+        </footer>
+
+        <script src="script.js"></script>
     </body>
 </html>

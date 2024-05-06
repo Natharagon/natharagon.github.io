@@ -6,27 +6,32 @@
     </head>
 
     <body>
-        <header class="navbar" id="navbar_fr">
+
+        <header class="navbar fr">
             <a href="/index.html">A propos de moi</a>
             <a href="/magicdle.html">Magicdle</a>
             <a href="/tuniv.html">Tuniv</a>
-            <!-- <a href="/gasc.html">Gasc</a> -->
+            <button onclick="changeLanguage()">
+                <img src="/img/french_flag.png" alt="French flag" class="flag">
+            </button>
         </header>
 
-        <header class="navbar" id="navbar_en">
+        <header class="navbar en">
             <a href="/index.html">About me</a>
             <a href="/magicdle.html">Magicdle</a>
             <a href="/tuniv.html">Tuniv</a>
-            <!-- <a href="/gasc.html">Gasc</a> -->
+            <button onclick="changeLanguage()">
+                <img src="/img/uk_flag.png" alt="United Kingdom flag" class="flag">
+            </button>
         </header>
 
-        <div class="about-me" id="about-me-fr">
+        <div class="about-me fr">
             <h1>A propos de moi</h1>
             <p>Je m'appelle Nathan Ozimek, j'ai 20 ans, et je suis en troisième année de BUT informatique à l'IUT Lyon 1 de Bourg-en-Bresse. Je travaille en alternance dans l'entreprise Téréva.</p>
             <p>Ce site est mon e-CV et portfolio où vous pourrez retrouver des informations me concernant ainsi qu'une présentation de quelques-uns des projets auxquels j'ai participé, avec des détails sur leur conception et ma contribution.</p>
         </div>
 
-        <div class="about-me" id="about-me-en">
+        <div class="about-me en">
             <h1>About me</h1>
             <p>My name is Nathan Ozimek, I'm 20 and in my third year of studies towards a BUT informatique at the IUT Lyon 1 of Bourg-en-Bresse, France. I'm also working a sandwich course at Téréva.</p>
             <p>This website is my e-résumé and portfolio, where you'll find info about me as well as an overview of a few of the projects I worked on, with details on their conception and my contributions.</p>
@@ -34,7 +39,7 @@
 
         <hr/>
 
-        <div class="about-me skills-training" id="skills-training-fr">
+        <div class="about-me skills-training fr">
             <h2>Ma formation et mes compétences</h2>
             <p>Actuellement en troisième année de BUT informatique spécialité développement web à l'Université Claude Bernard Lyon 1 de Bourg-en-Bresse, j'étudie l'informatique depuis le lycée. Je suis également titulaire d'un baccalauréat général mention très bien, avec spécialités Numérique et Sciences Informatique & Langues, Littératures et Culture Etrangères Anglais.</p>
             <p>Mes compétences les plus notables sont :</p>
@@ -48,7 +53,7 @@
             </ul>
         </div>
 
-        <div class="about-me skills-training" id="skills-training-en">
+        <div class="about-me skills-training en">
             <h2>My skills and training</h2>
             <p>Currently in my third year studying towards a BUT informatique specialized in web development at the Université Claude Bernard Lyon 1 in Bourg-enBresse, France, I've been studying computer science since high school. I'm also the holder of a baccalauréat diploma with a very good mention, specialized in Digital and Computer Science and Foreign Culture, Language and Literature English.</p>
             <p>My most important skills are:</p>
@@ -64,7 +69,7 @@
 
         <hr/>
 
-        <div class="about-me hobbies" id="hobbies-fr">
+        <div class="about-me hobbies fr">
             <h2>Mes centres d'intérêt et passions</h2>
             <p>Dans mon temps libre, j'aime :</p>
             <ul>
@@ -74,7 +79,7 @@
             </ul>
         </div>
 
-        <div class="about-me hobbies" id="hobbies-en">
+        <div class="about-me hobbies en">
             <h2>My hobbies</h2>
             <p>In my free time, I like to:</p>
             <ul>
@@ -86,7 +91,7 @@
 
         <hr/>
 
-        <div class="about-me contact" id="contact-fr">
+        <div class="about-me contact fr">
             <h2>Me contacter</h2>
             <p>Mon email : nathozimek@gmail.com</p>
             <p>Mon téléphone : 0782596706</p>
@@ -94,7 +99,7 @@
             <p>Mon Linkedin : https://www.linkedin.com/in/nathan-ozimek/</p>
         </div>
 
-        <div class="about-me contact" id="contact-en">
+        <div class="about-me contact en">
             <h2>Contact information</h2>
             <p>My email : nathozimek@gmail.com</p>
             <p>My phone number : 0782596706</p>
@@ -102,12 +107,14 @@
             <p>My Linkedin : https://www.linkedin.com/in/nathan-ozimek/</p>
         </div>
         
-        <footer class="navbar" id="navbar-fr">
+        <footer class="navbar fr">
             Ce site web a été développé par Nathan Ozimek et est hébergé sur GitHub Pages.
         </footer>
 
-        <footer class="navbar" id="navbar-en">
+        <footer class="navbar en">
             This website was developed by Nathan Ozimek and is hosted on GitHub Pages.
         </footer>
+
+        <script src="script.js"></script>
     </body>
 </html>

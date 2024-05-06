@@ -1,6 +1,10 @@
-/* body {
-    color: #FFFFFF;
-} */
+.en {
+    display: none;
+}
+
+.fr {
+    display: block;
+}
 
 a {
     color: #FFFFFF;
@@ -22,6 +26,7 @@ a {
     color: #FFFFFF;
 }
 
-#navbar_en, #about-me-en, #skills-training-en, #hobbies-en, #contact-en, #navbar-en {
-    display: none;
+.flag {
+    width: 1em;
+    aspect-ratio: 1/1;
 }
