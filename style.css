@@ -30,3 +30,8 @@ a {
     width: 1em;
     aspect-ratio: 1/1;
 }
+
+.example {
+    width: 400px;
+    height: 350px;
+}
