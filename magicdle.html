@@ -11,6 +11,7 @@
             <a href="/magicdle.html">Magicdle</a>
             <a href="/tuniv.html">Tuniv</a>
             <button onclick="changeLanguage()">
+                Langue actuelle :
                 <img src="/img/french_flag.png" alt="French flag" class="flag">
             </button>
         </header>
@@ -20,6 +21,7 @@
             <a href="/magicdle.html">Magicdle</a>
             <a href="/tuniv.html">Tuniv</a>
             <button onclick="changeLanguage()">
+                Current language:
                 <img src="/img/uk_flag.png" alt="United Kingdom flag" class="flag">
             </button>
         </header>
@@ -35,28 +37,42 @@
                 </ul>
             </div>
             <div class="fr">
-                <h3>Le projet</h3>
+                <h2>Le projet</h2>
                 Ce projet a été réalisé durant ma troisième année de BUT informatique. Le sujet étant libre, mon collègue et moi avons décidé de développer un site web reprenant le principe du Wordle du New York Times, jeu où l'on doit deviner un mot à l'aide d'indices basés sur les mots déjà essayés, mais en remplaçant les mots par des cartes du jeu de cartes à collectionner Magic the Gathering. En plus de la page dédiée au jeu, le projet disposait d'un moteur de recherche permettant de rechercher des cartes, une fonctionnalité complétant bien le principe du jeu, ainsi que d'autres pages plus cosmétiques telles qu'une page d'accueil affichant une sélection de cartes aléatoires et une page de statistiques donnant diverses statistiques liées au site et aux cartes.
             </div>
             <div class="en">
-                <h3>The project</h3>
+                <h2>The project</h2>
                 This project was developed during my third year of BUT. Since we could pick our own subject, me and my colleague decided to develop a website based on the New York Times Wordle game, where you try to guess a word through hints based on your previous attempts, but replacing the words with Magic: The Gathering cards. On top of the game page, the project also came with a search engine to help with searching cards, a useful tool to have considering the nature of the game, alongside more cosmetic pages such as a homepage displaying a selection of random cards and a stats page displaying various stats related to the cards and site. 
             </div>
 
             <div class="fr">
-                <h3>Ma contribution</h3>
+                <h2>Ma contribution</h2>
                 Mon collègue et moi avons effectué la conception de la base de données du projet ensemble. J'ai ensuite développé une partie de l'algorithme de recherche de carte utilisé à travers tout le site, mais la plus grande partie de ma contribution réside dans mon développement de toute la partie jeu du site : c'est moi qui me suis occupé de rendre son backend fonctionnel, de la génération d'une nouvelle carte à deviner chaque jour à l'affichage des essais du joueur et des indices qui en découlent.
             </div>
             <div class="en">
-                <h3>My contribution</h3>
+                <h2>My contribution</h2>
                 My colleague and I worked on designing the project's database together. I then developed part of the card searching algorithm used throughout the entire site, but my main contribution was my development of the entire game part of the project: I worked on 100% of its backend functionality, from the generation of a new card to guess every day to the site's displaying of previous attempts and the hints that came with them.
             </div>
 
+            <img src="img/magicdle_1.png" class ="example fr" alt="Une capture d'écran du projet Magicdle. Elle montre la page de jeu, où différentes cartes ont été essayées et chaque essai a permis de découvrir une nouvelle caractéristique de la carte à deviner, jusqu'à ce que l'essai soit correct."> 
+            <img src="img/magicdle_1.png" class ="example en" alt="A screenshot from the Magicdle project. It shows the game page, where various cards have been tried and each of them has revealed something new about the card to guess, until the guessed card is the correct one.">
+            
             <img src="img/magicdle_2.png" class="example fr" alt="Une capture d'écran du projet Magicdle. Elle montre la page de recherche du site, où différents filtres ont été rentrés afin de trouver la carte 'Guardian of Vitu-Ghazi'. Les filtres entrés correspondent aux informations obtenues dans les essais de l'image précédente.">
             <img src="img/magicdle_2.png" class="example en" alt="A screenshot from the Magicdle project. It shows the site's search page, where various filters have been entered to find the card 'Guardian of Vitu-Ghazi'. The filters match the information gained from the previous image's attempts.">
 
-            <img src="img/magicdle_1.png" class ="example fr" alt="Une capture d'écran du projet Magicdle. Elle montre la page de jeu, où différentes cartes ont été essayées et chaque essai a permis de découvrir une nouvelle caractéristique de la carte à deviner, jusqu'à ce que l'essai soit correct."> 
-            <img src="img/magicdle_1.png" class ="example en" alt="A screenshot from the Magicdle project. It shows the game page, where various cards have been tried and each of them has revealed something new about the card to guess, until the guessed card is the correct one.">
+            <div class="fr">
+                <h2>Exemple de code</h2>
+                <p>Ci-contre un extrait du code utilisé pour générer une carte à deviner chaque jour :</p>
+                <img src="img/magicdle_3.png" class="example fr" alt="Une capture d'écran du code du projet Magicdle.">
+                <p>A chaque chargement de la page, le site vérifie si la date a changé depuis la dernière visite de l'utilisateur ou non afin de pouvoir vider les données des essais du jour précédent, si elles existent. L'aléatoire du site est seedée en utilisant la date du jour : ainsi, différentes personnes utilisant le site le même jour devront essayer de trouver la même carte, et le site continuera de générer une nouvelle carte à trouver chaque jour ad vitam eternam sans action de ma part.</p>
+            </div>
+
+            <div class="en">
+                <h2>Code example</h2>
+                <p>Here's an excerpt from the code used to generate a new card to guess every day:</p>
+                <img src="img/magicdle_3.png" class="example en" alt="A screenshot from the Magicdle project's code.">
+                <p>Each time the page loads, the site checks to see if the date has changed since the user's last visit or not, and then empties the data from the previous day's attempts, if any. The site's randomness is seeded using the current day's date: that way, different people using the site on the same day will have to guess the same card, and the site will keep generating a new card to guess every day ad vitam eternam with no input necessary from me.</p>
+            </div>
         </div>
 
         <footer class="navbar fr">
