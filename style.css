@@ -1,9 +1,17 @@
+/* THESE MUST STAY AT THE TOP FOR script.js TO WORK */
+
 .en {
     display: none;
 }
 
 .fr {
     display: block;
+}
+
+/* you can start moving stuff here */
+
+body{
+    margin:0;
 }
 
 .navbar a {
@@ -14,6 +22,20 @@
     background-color: #E60000;
     color: #FFFFFF;
     text-align: center;
+    position: sticky;
+    top: 0;
+}
+
+footer {
+    background-color: #696969;
+    color: #FFFFFF;
+    text-align: center;
+}
+
+.content {
+    padding-left: 8px;
+    padding-right: 8px;
+    padding-top: 2px;
 }
 
 .magicdle {
