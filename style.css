@@ -85,15 +85,13 @@ footer {
     border-radius: 25px;
 }
 
-/* .magicdle {
-    background-color: #29339b;
-    color: #FFFFFF;
+.project, .contribution {
+    display: grid;
+    align-items: center;
+    grid-template-columns: 10fr 1fr;
+    column-gap: 5px;
+    margin-bottom: 10px;
 }
-
-.tuniv {
-    background-color: #182B2F;
-    color: #FFFFFF;
-} */
 
 .flag {
     width: 1em;
@@ -101,6 +99,33 @@ footer {
 }
 
 .example {
-    width: 400px;
-    height: 350px;
+    width: 192px;
+    height: 220px;
+    float: right;
 }
+
+.gallery-container {
+    display: flex;
+    justify-content: center;
+}
+
+div.gallery {
+    margin: 5px;
+    border: 1px solid #ccc;
+    width: 180px;
+    /* height: fit-content; */
+  }
+  
+  div.gallery:hover {
+    border: 1px solid #777;
+  }
+  
+  div.gallery img {
+    width: 100%;
+    height: auto;
+  }
+  
+  div.desc {
+    padding: 15px;
+    text-align: center;
+  }
