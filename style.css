@@ -62,6 +62,7 @@ footer {
     background-color: #696969;
     color: #FFFFFF;
     text-align: center;
+    padding: 8px;
 }
 
 .content {
@@ -70,7 +71,7 @@ footer {
     padding-top: 2px;
 }
 
-.magicdle {
+/* .magicdle {
     background-color: #29339b;
     color: #FFFFFF;
 }
@@ -78,7 +79,7 @@ footer {
 .tuniv {
     background-color: #182B2F;
     color: #FFFFFF;
-}
+} */
 
 .flag {
     width: 1em;
